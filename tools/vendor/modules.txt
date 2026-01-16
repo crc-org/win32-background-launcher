@@ -1,4 +1,4 @@
-# github.com/cpuguy83/go-md2man/v2 v2.0.0
+# github.com/cpuguy83/go-md2man/v2 v2.0.7
 ## explicit; go 1.12
 github.com/cpuguy83/go-md2man/v2/md2man
 # github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
@@ -7,16 +7,19 @@ github.com/nfnt/resize
 # github.com/russross/blackfriday/v2 v2.1.0
 ## explicit
 github.com/russross/blackfriday/v2
-# github.com/tc-hib/go-winres v0.3.1
-## explicit; go 1.16
+# github.com/tc-hib/go-winres v0.3.3
+## explicit; go 1.19
 github.com/tc-hib/go-winres
-# github.com/tc-hib/winres v0.1.6
-## explicit; go 1.15
+# github.com/tc-hib/winres v0.3.1
+## explicit; go 1.19
 github.com/tc-hib/winres
 github.com/tc-hib/winres/version
-# github.com/urfave/cli/v2 v2.3.0
-## explicit; go 1.11
+# github.com/urfave/cli/v2 v2.27.7
+## explicit; go 1.18
 github.com/urfave/cli/v2
-# golang.org/x/image v0.0.0-20210220032944-ac19c3e999fb
-## explicit; go 1.12
+# github.com/xrash/smetrics v0.0.0-20250705151800-55b8f293f342
+## explicit; go 1.15
+github.com/xrash/smetrics
+# golang.org/x/image v0.35.0
+## explicit; go 1.24.0
 golang.org/x/image/bmp
