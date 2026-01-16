@@ -1,6 +1,6 @@
 module github.com/crc-org/win32-background-launcher/tools
 
-go 1.20
+go 1.24
 
 require github.com/tc-hib/go-winres v0.3.1
 
