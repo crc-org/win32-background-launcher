@@ -11,9 +11,9 @@ func binaryAndArgs() (string, []string) {
 	// os.Args[1] is the name of the binary we want to start in the background
 	// os.Args[2:] are the arguments of our binary
 	switch {
-	case len(os.Args) == 0:
+	case len(os.Args) <= 1:
 		return "", []string{}
-	case len(os.Args) == 1:
+	case len(os.Args) == 2:
 		return os.Args[1], []string{}
 	default:
 		return os.Args[1], os.Args[2:]
