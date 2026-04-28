@@ -28,7 +28,7 @@ func main() {
 	cmd := exec.Command(binaryPath, args...)
 	cmd.SysProcAttr = &syscall.SysProcAttr{CreationFlags: 0x08000000}
 	cmd.Stdout = os.Stdout
-	cmd.Stdout = os.Stderr
+	cmd.Stderr = os.Stderr
 	err := cmd.Run()
 	if err != nil {
 		panic(err.Error())
