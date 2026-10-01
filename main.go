@@ -25,6 +25,8 @@ func main() {
 	if binaryPath == "" {
 		panic("missing binary name")
 	}
+	// deepcode ignore go/CommandInjection: this launcher's sole purpose is to run
+	// the binary named on the CLI; exec.Command passes args directly, not via a shell.
 	cmd := exec.Command(binaryPath, args...)
 	cmd.SysProcAttr = &syscall.SysProcAttr{CreationFlags: 0x08000000}
 	cmd.Stdout = os.Stdout
